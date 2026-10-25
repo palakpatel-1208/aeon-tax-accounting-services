@@ -1,219 +1,263 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Aeon Tax Services provides tax preparation, bookkeeping, and payroll solutions for individuals and businesses throughout Pennsylvania and nationwide.">
-  <meta name="theme-color" content="#0B2342">
-  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aeon Tax Services | CPA Services in Pennsylvania</title>
+  <meta name="description" content="Comprehensive tax preparation, bookkeeping, and payroll solutions for individuals and businesses throughout Pennsylvania and nationwide.">
+  <meta name="theme-color" content="#0e1f3b">
+  <meta property="og:title" content="Aeon Tax Services | CPA Services in Pennsylvania">
+  <meta property="og:description" content="Comprehensive tax preparation, bookkeeping, and payroll solutions for individuals and businesses throughout Pennsylvania and nationwide.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,500;1,8..60,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title>Aeon Tax Services | Your Financial Partner</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AccountingService",
+    "name": "Aeon Tax Services",
+    "description": "Comprehensive tax preparation, bookkeeping, and payroll solutions for individuals and businesses throughout Pennsylvania and nationwide.",
+    "areaServed": [
+      { "@type": "State", "name": "Pennsylvania" },
+      { "@type": "Country", "name": "United States" }
+    ],
+    "knowsAbout": ["Tax preparation", "Bookkeeping", "Payroll"]
+  }
+  </script>
 </head>
-<body>
-<a class="skip" href="#content">Skip to content</a>
-<div class="chrome">
-  <div class="utility">
-    <div class="wrap utility-inner">
-      <span>Your Financial Partner</span>
-      <span class="utility-right">Pennsylvania and nationwide</span>
+<body data-page="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="utility-bar">
+      <div class="container utility-bar-inner">
+        <span>Your Tax and Accounting Partner</span>
+        <span>Pennsylvania and Nationwide</span>
+      </div>
     </div>
-  </div>
-  <header class="header-bar">
-    <div class="wrap header-inner">
-      <a class="logo" href="index.html" aria-label="Aeon Tax Services, home"><span class="logo-lockup" aria-hidden="true"><svg class="seal" width="52" height="52" viewBox="0 0 72 72" aria-hidden="true" focusable="false"><circle cx="36" cy="36" r="30" fill="none" stroke="currentColor" stroke-width="3.4"/><path fill="currentColor" fill-rule="evenodd" d="M36 14 54 60h-7.8L42.4 49H29.6L25.8 60H18L36 14Zm0 17.2-3.8 11h7.6L36 31.2Z"/><path d="M20 40.5 31.5 52.5 56 24" fill="none" stroke="#277F2B" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="logo-divider"></span><span class="logo-words"><span class="logo-name">AEON</span><span class="logo-sub">Tax Services</span><span class="logo-tag">Your Financial Partner</span></span></span></a>
-      <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="site-nav">
+    <div class="container header-bar">
+      <a class="brand" href="index.html" data-nav="home">
+        <img src="assets/logo-primary.png" alt="Aeon Tax Services" width="407" height="332">
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
         <span class="sr-only">Open menu</span>
-        <span></span>
-        <span></span>
-        <span></span>
+        <span class="nav-toggle-bar"></span>
       </button>
-      <nav id="site-nav" class="nav" aria-label="Primary">
-        <a class="nav-link active" href="index.html" aria-current="page">Home</a>
-        <a class="nav-link" href="services.html">Services</a>
-        <a class="nav-link" href="about.html">About Us</a>
-        <a class="nav-link" href="contact.html">Contact Us</a>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html" data-nav="home">Home</a></li>
+          <li><a href="index.html#services" data-nav="services">Services</a></li>
+          <li><a href="index.html#about" data-nav="about">About Us</a></li>
+          <li><a href="index.html#contact" data-nav="contact">Contact Us</a></li>
+        </ul>
       </nav>
     </div>
   </header>
-</div>
-<main id="content">
 
-<section class="hero">
-  <div class="hero-copy">
-    <p class="kicker">Your Financial Partner</p>
-    <h1>Trusted CPA Services Across <em>Pennsylvania and the United States</em></h1>
-    <p class="lede">Comprehensive tax preparation, bookkeeping, and payroll solutions for individuals and businesses. Delivering reliable financial expertise to clients throughout Pennsylvania and nationwide.</p>
-    <div class="hero-actions">
-      <a class="btn btn-green" href="contact.html">Contact Us</a>
-      <a class="btn btn-ghost" href="services.html">View Services</a>
-    </div>
-    <ul class="hero-meta">
-      <li>Pennsylvania</li>
-      <li>Nationwide</li>
-      <li>Virtual and in-person</li>
-    </ul>
-  </div>
-  <div class="hero-visual">
-    <figure class="return-figure" aria-label="Illustration of IRS Form 1040, U.S. Individual Income Tax Return">
-  <div class="return-stage">
-    <div class="return-offset" aria-hidden="true"></div>
-    <div class="return-sheet">
-      <div class="return-tab">Form 1040</div>
-      <div class="return-head">
-        <p>Department of the Treasury — Internal Revenue Service</p>
-        <strong>1040</strong>
+  <main id="main">
+    <section class="hero" id="hero">
+      <div class="container hero-container">
+        <div class="hero-top">
+          <p class="eyebrow"><span class="eyebrow-accent" aria-hidden="true"></span> Aeon Tax and Accounting Services</p>
+          <h1 class="hero-heading">Trusted CPA Services Across Pennsylvania and the United States</h1>
+          <p class="hero-subhead">Comprehensive tax preparation, bookkeeping, and payroll solutions for individuals and businesses. Delivering reliable financial expertise to clients throughout Pennsylvania and Nationwide.</p>
+        </div>
+
+        <div class="hero-banner-container">
+          <div class="hero-banner-frame">
+            <button type="button" class="hero-banner-trigger" data-form-open aria-haspopup="dialog" aria-controls="form-modal" aria-label="Open larger view of tax season promotion banner">
+              <img 
+                src="assets/hero-banner.jpg" 
+                width="1024" 
+                height="558" 
+                alt="Aeon Tax Services - Save More This Tax Season! 20% Early Bird Discount Before February 28, 2027. Additional discounts for students and senior citizens. Contact us today." 
+                class="hero-banner-img"
+                fetchpriority="high"
+                decoding="async"
+              >
+            </button>
+            <a href="index.html#contact" class="hero-banner-cta-link" aria-label="Contact Us Today for 20% Early Bird Tax Season Discount">
+              <span class="sr-only">Contact Us Today</span>
+              <span class="hero-cta-sheen" aria-hidden="true"></span>
+            </a>
+          </div>
+        </div>
       </div>
-      <h2>U.S. Individual Income Tax Return</h2>
-      <ul>
-        <li><span>Filing status</span><span class="return-rule"></span></li>
-        <li><span>Income</span><span class="return-rule"></span></li>
-        <li><span>Adjustments</span><span class="return-rule"></span></li>
-        <li><span>Deductions</span><span class="return-rule"></span></li>
-        <li><span>Taxable income</span><span class="return-rule"></span></li>
-        <li><span>Payments</span><span class="return-rule"></span></li>
-        <li><span>Refund or amount owed</span><span class="return-rule"></span></li>
-      </ul>
-      <figcaption>Illustration only. This is not a filed return.</figcaption>
-    </div>
-  </div>
-</figure>
-  </div>
-</section>
-<section class="section ledger-section" aria-labelledby="services-title">
-  <div class="wrap">
-    <div class="section-heading">
-      <h2 id="services-title">Our Services</h2>
-      <p>Comprehensive tax preparation, bookkeeping, and payroll solutions for individuals and businesses.</p>
-    </div>
-    <div class="ledger">
-      <a class="ledger-row" href="services.html#tax">
-        <span class="ledger-num">01</span>
-        <span class="ledger-copy">
-          <strong>Individual &amp; Business Tax Services</strong>
-          <span>Accurate tax preparation and filing solutions are designed to help you stay compliant while optimizing your tax position. We provide federal, state, and multi-state filings with precision.</span>
-        </span>
-        <span class="link-arrow">Learn more <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h16M14 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-      </a>
-      <a class="ledger-row" href="services.html#bookkeeping">
-        <span class="ledger-num">02</span>
-        <span class="ledger-copy">
-          <strong>Bookkeeping &amp; Accounting</strong>
-          <span>Maintain clear visibility into your finances with professional bookkeeping, reconciliations, and detailed financial statements.</span>
-        </span>
-        <span class="link-arrow">Learn more <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h16M14 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-      </a>
-      <a class="ledger-row" href="services.html#payroll">
-        <span class="ledger-num">03</span>
-        <span class="ledger-copy">
-          <strong>Payroll Solutions</strong>
-          <span>Hassle-free payroll administration with reliable processing, reporting, and compliance support for businesses of all sizes.</span>
-        </span>
-        <span class="link-arrow">Learn more <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h16M14 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-      </a>
-    </div>
-  </div>
-</section>
-<section class="section why-section" aria-labelledby="why-title">
-  <div class="wrap why-layout">
-    <div class="why-intro">
-      <svg class="seal" width="88" height="88" viewBox="0 0 72 72" aria-hidden="true" focusable="false"><circle cx="36" cy="36" r="30" fill="none" stroke="currentColor" stroke-width="3.4"/><path fill="currentColor" fill-rule="evenodd" d="M36 14 54 60h-7.8L42.4 49H29.6L25.8 60H18L36 14Zm0 17.2-3.8 11h7.6L36 31.2Z"/><path d="M20 40.5 31.5 52.5 56 24" fill="none" stroke="#277F2B" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <h2 id="why-title">Why<br>Aeon Tax?</h2>
-      <a class="btn btn-green" href="contact.html">Contact Us</a>
-    </div>
-    <ol class="why-list">
-      <li><span>01</span><div><h3>Client-Focused Approach</h3><p>Every client has unique goals and circumstances. We take the time to understand your situation and deliver solutions designed specifically for your needs.</p></div></li>
-      <li><span>02</span><div><h3>Serving Clients Across the U.S.</h3><p>Whether you're located in Pennsylvania or anywhere else in the country, our team provides reliable virtual and in-person support to clients nationwide.</p></div></li>
-      <li><span>03</span><div><h3>Straightforward, Fair Pricing</h3><p>Clear pricing with no unexpected charges. You'll know exactly what to expect before any work begins.</p></div></li>
-      <li><span>04</span><div><h3>Secure &amp; Private</h3><p>Protecting your sensitive financial information is a top priority. We use advanced security measures and industry-standard safeguards to keep your data safe.</p></div></li>
-      <li><span>05</span><div><h3>Trusted Guidance You Can Depend On</h3><p>Our commitment is to provide accurate, timely, and professional service that helps you make informed financial decisions with confidence.</p></div></li>
-    </ol>
-  </div>
-</section>
-<section class="promise-band" aria-labelledby="promise-title">
-  <div class="wrap">
-    <h2 id="promise-title">Our Promise</h2>
-    <div class="promise-grid">
-      <article><span class="promise-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3.5 19 6.2v5.4c0 4.2-2.8 7.2-7 8.9-4.2-1.7-7-4.7-7-8.9V6.2L12 3.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 12.1 11.1 14.2 15.2 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><h3>Regulatory Compliance</h3><p>100% compliant with federal, state, and local regulations.</p></article>
-      <article><span class="promise-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.5 19.2c1.2-3 3.4-4.4 6.5-4.4s5.3 1.4 6.5 4.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><h3>Expert Guidance</h3><p>Direct access to experienced CPA.</p></article>
-      <article><span class="promise-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 4v16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 7.5c0-1.4-1.8-2.5-4-2.5s-4 1.1-4 2.5 1.8 2.4 4 2.5 4 1.1 4 2.5-1.8 2.5-4 2.5-4-1.1-4-2.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><h3>Affordable Value</h3><p>Professional CPA services at fair and competitive prices.</p></article>
-      <article><span class="promise-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 16.5V7.8A2.8 2.8 0 0 1 7.8 5h8.4A2.8 2.8 0 0 1 19 7.8v5.2a2.8 2.8 0 0 1-2.8 2.8H9l-4 2.7Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><h3>Premium Client Experience</h3><p>Responsive communication and personalized service.</p></article>
-    </div>
-    <div class="promise-grid promise-grid-extra">
-      <article><span class="promise-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3.5 19 6.2v5.4c0 4.2-2.8 7.2-7 8.9-4.2-1.7-7-4.7-7-8.9V6.2L12 3.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 12.1 11.1 14.2 15.2 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><h3>IRS Compliance</h3><p>100% compliant with federal and state regulations.</p></article>
-      <article><span class="promise-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.5 19.2c1.2-3 3.4-4.4 6.5-4.4s5.3 1.4 6.5 4.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><h3>Expert Support</h3><p>Direct access to experienced CPAs.</p></article>
-      <article><span class="promise-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 16.5 9 11.5 13 14.5 20 7.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M14.5 7.5H20V13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><h3>Growth Focused</h3><p>Strategic financial planning for success.</p></article>
-    </div>
-  </div>
-</section>
-<section class="callout" aria-label="Ready to talk with Aeon Tax Services?">
-  <div class="callout-copy">
-    <h2>Ready to talk with Aeon Tax Services?</h2>
-    <p>Accurate, timely, and professional service for individuals and businesses throughout Pennsylvania and nationwide.</p>
-  </div>
-  <div class="callout-action">
-    <p>Pennsylvania and nationwide</p>
-    <a class="btn btn-white" href="contact.html">Contact Us</a>
-  </div>
-</section>
+    </section>
 
-</main>
-<footer class="footer">
-  <section class="standards" aria-labelledby="standards-title">
-    <div class="wrap">
-      <h2 id="standards-title">Why Aeon Tax?</h2>
-      <ul>
-        <li><strong>Comprehensive Services</strong><span>From tax prep to payroll, we handle all your accounting needs under one roof.</span></li>
-        <li><strong>Personalized Attention</strong><span>You're not just a number. We take time to understand your unique needs.</span></li>
-        <li><strong>Nationwide Service</strong><span>Serving clients in all 51 states with local Pennsylvania expertise.</span></li>
-        <li><strong>Transparent Pricing</strong><span>No surprises. No hidden fees. Just honest service.</span></li>
-        <li><strong>100% Confidential</strong><span>Your financial data is secured with bank-level encryption.</span></li>
-      </ul>
-    </div>
-  </section>
-  <div class="footer-main">
-    <div class="wrap footer-grid">
+    <section class="section" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="services-heading">Our Services</h2>
+          <p>Tax, bookkeeping, and payroll under one roof</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card service-card-media">
+            <img class="service-card-image" src="assets/services/tax.jpg" width="1800" height="1201" alt="Person reviewing and signing financial documents">
+            <div class="service-card-body">
+              <h3>Individual &amp; Business Tax Services</h3>
+              <p>Accurate tax preparation and filing solutions are designed to help you stay compliant while optimizing your tax position. We provide federal, state, and multi-state filings with precision.</p>
+            </div>
+          </article>
+          <article class="service-card service-card-media">
+            <img class="service-card-image" src="assets/services/bookkeeping.jpg" width="1800" height="1282" alt="Laptop displaying financial charts and account figures">
+            <div class="service-card-body">
+              <h3>Bookkeeping &amp; Accounting</h3>
+              <p>Maintain clear visibility into your finances with professional bookkeeping, reconciliations, and detailed financial statements.</p>
+            </div>
+          </article>
+          <article class="service-card service-card-media">
+            <img class="service-card-image" src="assets/services/payroll.jpg" width="1800" height="1200" alt="Business owners reviewing paperwork during a meeting">
+            <div class="service-card-body">
+              <h3>Payroll Solutions</h3>
+              <p>Hassle-free payroll administration with reliable processing, reporting, and compliance support for businesses of all sizes.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-paper" aria-labelledby="promise-heading">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="promise-heading">Our Promise</h2>
+          <p>Professional CPA services for individuals and businesses.</p>
+        </div>
+        <div class="promise-grid">
+          <article class="promise-card">
+            <span class="icon-badge">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v6c0 4.2 2.8 7.4 7 8.5 4.2-1.1 7-4.3 7-8.5V6l-7-3z"/><path d="m9 12 2 2 4-4"/></svg>
+            </span>
+            <h3>Regulatory Compliance</h3>
+            <p>100% compliant with federal, state, and local regulations.</p>
+          </article>
+          <article class="promise-card">
+            <span class="icon-badge">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12a4 4 0 1 0-4-4 4 4 0 0 0 4 4z"/><path d="M5 20a7 7 0 0 1 14 0"/></svg>
+            </span>
+            <h3>Expert Guidance</h3>
+            <p>Direct access to an experienced CPA.</p>
+          </article>
+          <article class="promise-card">
+            <span class="icon-badge">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3h7v7l-9 9-7-7 9-9z"/><path d="M16.5 7.5h.01"/></svg>
+            </span>
+            <h3>Affordable Value</h3>
+            <p>Professional CPA services at fair and competitive prices.</p>
+          </article>
+          <article class="promise-card">
+            <span class="icon-badge">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 6h14v9H8l-3 3V6z"/></svg>
+            </span>
+            <h3>Premium Client Experience</h3>
+            <p>Responsive communication and personalized service.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <div class="container why-layout">
+        <div class="why-intro">
+          <h2 id="about-heading">Why Aeon Tax?</h2>
+          <p>We take the time to understand your situation, explain pricing before work begins, and protect your financial information.</p>
+        </div>
+        <div class="reason-panel">
+          <ol class="reason-list">
+            <li>
+              <div>
+                <h3>Client-Focused Approach</h3>
+                <p>Every client has unique goals and circumstances. We take the time to understand your situation and deliver solutions designed specifically for your needs.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Serving Clients Across the U.S.</h3>
+                <p>Whether you're located in Pennsylvania or anywhere else in the country, our team provides reliable virtual and in-person support to clients nationwide.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Straightforward, Fair Pricing</h3>
+                <p>Clear pricing with no unexpected charges. You'll know exactly what to expect before any work begins.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Secure &amp; Private</h3>
+                <p>Protecting your sensitive financial information is a top priority. We use advanced security measures and industry-standard safeguards to keep your data safe.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Trusted Guidance You Can Depend On</h3>
+                <p>Our commitment is to provide accurate, timely, and professional service that helps you make informed financial decisions with confidence.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-band" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <hr class="cta-rule">
+        <h2 id="contact-heading">Schedule Your Free Call Today!</h2>
+        <p>Give us a call and we're happy to give you our advice on how we can best serve you.</p>
+        <div class="cta-actions">
+          <a class="btn btn-light" href="tel:+14452820983">Call +1 (445) 282-0983</a>
+          <a class="btn btn-outline-light" href="mailto:aeontaxcpa@gmail.com">Email aeontaxcpa@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
       <div class="footer-brand">
-        <a class="logo" href="index.html" aria-label="Aeon Tax Services, home"><span class="logo-lockup" aria-hidden="true"><svg class="seal" width="52" height="52" viewBox="0 0 72 72" aria-hidden="true" focusable="false"><circle cx="36" cy="36" r="30" fill="none" stroke="currentColor" stroke-width="3.4"/><path fill="currentColor" fill-rule="evenodd" d="M36 14 54 60h-7.8L42.4 49H29.6L25.8 60H18L36 14Zm0 17.2-3.8 11h7.6L36 31.2Z"/><path d="M20 40.5 31.5 52.5 56 24" fill="none" stroke="#277F2B" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="logo-divider"></span><span class="logo-words"><span class="logo-name">AEON</span><span class="logo-sub">Tax Services</span><span class="logo-tag">Your Financial Partner</span></span></span></a>
-        <p>Comprehensive tax preparation, bookkeeping, and payroll solutions for individuals and businesses. Delivering reliable financial expertise to clients throughout Pennsylvania and nationwide.</p>
+        <a href="index.html" data-nav="home">
+          <img src="assets/logo-primary.png" alt="Aeon Tax Services" width="407" height="332">
+        </a>
+        <p>Comprehensive tax preparation, bookkeeping, and payroll solutions for individuals and businesses throughout Pennsylvania and nationwide.</p>
       </div>
       <div>
-        <h2>Explore</h2>
+        <h2 class="footer-title">Services</h2>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="index.html#services">Individual &amp; Business Tax Services</a></li>
+          <li><a href="index.html#services">Bookkeeping &amp; Accounting</a></li>
+          <li><a href="index.html#services">Payroll Solutions</a></li>
         </ul>
       </div>
       <div>
-        <h2>Services</h2>
+        <h2 class="footer-title">Contact</h2>
         <ul>
-          <li><a href="services.html#tax">Individual &amp; Business Tax Services</a></li>
-          <li><a href="services.html#bookkeeping">Bookkeeping &amp; Accounting</a></li>
-          <li><a href="services.html#payroll">Payroll Solutions</a></li>
-        </ul>
-      </div>
-      <div>
-        <h2>Contact</h2>
-        <ul class="contact-facts">
-          <li><span>Service area</span>Pennsylvania and nationwide</li>
-          <li><span>Phone</span>To be confirmed</li>
-          <li><span>Email</span>To be confirmed</li>
-          <li><span>Address</span>To be confirmed</li>
+          <li>Pennsylvania and Nationwide</li>
+          <li>Phone: <a href="tel:+14452820983">+1 (445) 282-0983</a></li>
+          <li>Email: <a href="mailto:aeontaxcpa@gmail.com">aeontaxcpa@gmail.com</a></li>
+          <li>Location: <span class="is-pending">Warrington, PA</span></li>
         </ul>
       </div>
     </div>
-  </div>
-  <div class="legal">
-    <div class="wrap legal-inner">
-      <p>© 2026 Aeon Tax Services</p>
-      <p>Information on this website is general and is not tax, legal, or financial advice. Talk with a qualified professional about your specific situation.</p>
+    <div class="footer-base">
+      <div class="container footer-base-inner">
+        <p>© 2026 Aeon Tax Services</p>
+        <p>Information on this website is general and is not tax, legal, or financial advice. Talk with a qualified professional about your specific situation.</p>
+      </div>
     </div>
-  </div>
-</footer>
-<script src="assets/js/main.js"></script>
+  </footer>
+  <dialog class="form-modal" id="form-modal" aria-labelledby="form-modal-title">
+    <div class="form-modal-bar">
+      <h2 id="form-modal-title">Tax Season Early Bird Promotion</h2>
+      <button type="button" class="form-modal-close" data-form-close>Close</button>
+    </div>
+    <div class="form-modal-body">
+      <img src="assets/hero-banner.jpg" width="1024" height="558" alt="Enlarged view of Aeon Tax Services Early Bird Promotion Banner">
+    </div>
+  </dialog>
+  <script src="js/main.js" defer></script>
 </body>
 </html>
